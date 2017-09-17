@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\out\main.o" ".\out\target.o" ".\out\startup.o" --strict --scatter ".\src\MEM_C.SCF" 
+--entry Reset --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\out\main.map" -o ".\out\main.axf"
