@@ -30,10 +30,15 @@ void Delayus(unsigned int n)    //大约1微秒延时
 //----------------------------------------------------------------------------
 
 #define	 LED	(1<<25)		// 低电平点亮
-#define	 LEDR	(1<<26)		// 低电平点亮
-#define	 KEY1	(1<<16)		// 按键位 P0.16
-uchar i=0;
+#define	 LEDR1	(1<<26)		// 低电平点亮
+#define	 LEDR2	(1<<27)	
+#define	 LEDR3	(1<<28)	
 
+#define	 KEY1	(1<<16)		// 按键位 P0.16
+#define	 KEY2	(1<<17)	
+#define	 KEY3	(1<<18)	
+uchar i=0;
+uchar flag=0;
 
 //宏定义
 const uint8 DISP_TAB[16]={0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90,
@@ -109,7 +114,19 @@ void T0_init()
 //================================================================
 void keyscan()
 {
-	   if(IO0PIN|KEY1==0);
+	   if((IO0PIN&KEY1)==0) 
+	   {
+	   		 flag = 1;
+	   }
+	    else if((IO0PIN&KEY2)==0) 
+	   {
+	   		 flag = 2;
+	   }
+	   else if((IO0PIN&KEY3)==0) 
+	   {
+	   		 flag = 3;
+	   }
+	   else flag = 0;
 }
 
 //================================================================
@@ -126,12 +143,24 @@ int main(void)
 	IO0DIR	= IO0DIR|LED;					//设置LED控制口为输出方向
 
 
-	IO0DIR	= IO0DIR|LEDR;
+	IO0DIR	= IO0DIR|LEDR1;	IO0DIR	= IO0DIR|LEDR2;IO0DIR	= IO0DIR|LEDR3;
 	IO0DIR	= IO0DIR&(~KEY1);
 	while (1)
-	{					
-		if(i%2==0)	IO0SET |= LED;  //i为偶数时, P0.25 置1, LED灭
-		else	IO0CLR |= LED;  	//P0.25 置0
+	{		
+		keyscan();
+		switch(flag)
+		{
+			case 0: 
+				{
+					IO0SET |= LEDR1;
+					IO0SET |= LEDR2;
+					IO0SET |= LEDR3;		
+					break;
+				}
+			case 1: IO0CLR |= LEDR1;	break;
+			case 2:	IO0CLR |= LEDR2;	break;
+			case 3:	IO0CLR |= LEDR3;	break;
+		}
 	}   
 }
 

@@ -1,5 +1,5 @@
 Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
-F (.\user\main.c)(0x59BE3FEE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I.\src -I.\user -I "D:\ProgramFiles\Keil\ARM\CMSIS\Include" -I "D:\ProgramFiles\Keil\ARM\INC\Philips" -o ".\out\main.o" --omf_browse ".\out\main.crf" --depend ".\out\main.d")
+F (.\user\main.c)(0x59BE4FCA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I.\src -I.\user -I "D:\ProgramFiles\Keil\ARM\CMSIS\Include" -I "D:\ProgramFiles\Keil\ARM\INC\Philips" -o ".\out\main.o" --omf_browse ".\out\main.crf" --depend ".\out\main.d")
 I (.\src\config.h)(0x59BE2F27)
 I (.\src\LPC213x.h)(0x4E56087C)
 I (D:\ProgramFiles\Keil\ARM\RV31\INC\stdio.h)(0x4D461916)

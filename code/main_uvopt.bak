@@ -160,10 +160,10 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>23</ColumnNumber>
+      <ColumnNumber>38</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>27</TopLine>
+      <CurrentLine>38</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\user\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -206,35 +206,9 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\config.h</PathWithFilename>
-    <TopLine>24</TopLine>
-    <CurrentLine>40</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
-    <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\LPC213x.h</PathWithFilename>
+    <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\target.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>1</CurrentLine>
+    <CurrentLine>12</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -284,9 +258,35 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\target.h</PathWithFilename>
+    <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\LPC213x.h</PathWithFilename>
+    <TopLine>61</TopLine>
+    <CurrentLine>73</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\config.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>12</CurrentLine>
+    <CurrentLine>23</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -318,21 +318,21 @@
       <Documents>
         <Doc>
           <Name>.\user\main.c</Name>
-          <ColumnNumber>23</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <ColumnNumber>38</ColumnNumber>
+          <TopLine>27</TopLine>
+          <CurrentLine>38</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\src\config.h</Name>
-          <ColumnNumber>16</ColumnNumber>
-          <TopLine>24</TopLine>
-          <CurrentLine>40</CurrentLine>
+          <ColumnNumber>72</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>23</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\src\LPC213x.h</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <ColumnNumber>68</ColumnNumber>
+          <TopLine>61</TopLine>
+          <CurrentLine>73</CurrentLine>
         </Doc>
         <Doc>
           <Name>D:\ProgramFiles\Keil\ARM\RV31\INC\stdio.h</Name>

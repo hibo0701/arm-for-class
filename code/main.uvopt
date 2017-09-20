@@ -160,10 +160,10 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>38</ColumnNumber>
+      <ColumnNumber>54</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>27</TopLine>
-      <CurrentLine>38</CurrentLine>
+      <TopLine>140</TopLine>
+      <CurrentLine>166</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\user\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -183,7 +183,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>184</TopLine>
+      <TopLine>172</TopLine>
       <CurrentLine>184</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\SRC\TARGET.C</PathWithFileName>
@@ -197,8 +197,8 @@
       <Focus>0</Focus>
       <ColumnNumber>15</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>129</TopLine>
-      <CurrentLine>129</CurrentLine>
+      <TopLine>43</TopLine>
+      <CurrentLine>43</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\SRC\Startup.s</PathWithFileName>
       <FilenameWithoutPath>Startup.s</FilenameWithoutPath>
@@ -232,35 +232,9 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>D:\ProgramFiles\Keil\ARM\RV31\INC\stdio.h</PathWithFilename>
-    <TopLine>412</TopLine>
-    <CurrentLine>412</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
     <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\LPC213x.h</PathWithFilename>
     <TopLine>61</TopLine>
-    <CurrentLine>73</CurrentLine>
+    <CurrentLine>72</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -286,7 +260,7 @@
   <AlienFiles>
     <PathWithFilename>D:\ThunderDownload\软件及例程（嵌入式原理课程）\Proteus仿真_LED,定时器0数码管\code\src\config.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>23</CurrentLine>
+    <CurrentLine>16</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -314,31 +288,25 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>1</ActiveTab>
+      <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\user\main.c</Name>
-          <ColumnNumber>38</ColumnNumber>
-          <TopLine>27</TopLine>
-          <CurrentLine>38</CurrentLine>
+          <ColumnNumber>54</ColumnNumber>
+          <TopLine>140</TopLine>
+          <CurrentLine>166</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\src\config.h</Name>
-          <ColumnNumber>72</ColumnNumber>
+          <ColumnNumber>32</ColumnNumber>
           <TopLine>1</TopLine>
-          <CurrentLine>23</CurrentLine>
+          <CurrentLine>16</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\src\LPC213x.h</Name>
-          <ColumnNumber>68</ColumnNumber>
+          <ColumnNumber>14</ColumnNumber>
           <TopLine>61</TopLine>
-          <CurrentLine>73</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>D:\ProgramFiles\Keil\ARM\RV31\INC\stdio.h</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>412</TopLine>
-          <CurrentLine>412</CurrentLine>
+          <CurrentLine>72</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\src\target.h</Name>
@@ -349,14 +317,14 @@
         <Doc>
           <Name>.\SRC\TARGET.C</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>184</TopLine>
+          <TopLine>172</TopLine>
           <CurrentLine>184</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\SRC\Startup.s</Name>
           <ColumnNumber>15</ColumnNumber>
-          <TopLine>129</TopLine>
-          <CurrentLine>129</CurrentLine>
+          <TopLine>43</TopLine>
+          <CurrentLine>43</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>
